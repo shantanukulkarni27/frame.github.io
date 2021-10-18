@@ -74,11 +74,24 @@ a.active {
       top: 35%;
       left: 35%;
   }
-  .ban-section h2,h3,h1{
+  .ban-section h2,h3{
       padding-bottom: 25px;
       word-spacing: 5px;
+     text-align: center;
       
   }
+
+  .ban-section h3{
+      color: #d4d4d4;
+  }
+
+ .ban-section h1{
+     
+     word-spacing: 30px;
+     font-size: 50px;
+     padding-bottom: 25px;
+ }
+
   .btn1{
       background-color: rgb(25, 206, 176);
       width: 120px;
