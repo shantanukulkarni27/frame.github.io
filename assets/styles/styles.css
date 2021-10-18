@@ -9,7 +9,7 @@
 }
 .banner{
     position: relative;
-    background-image: url("/assets/images/slider1.jpg");
+    background-image: url("../images/slider1.jpg");
     height: 100vh;
     background-size: cover;
     width: 100%;
