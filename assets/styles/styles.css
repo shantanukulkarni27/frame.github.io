@@ -15,9 +15,7 @@
     width: 100%;
     
 }
-.header{
-    background-color: aqua;
-}
+
 
 .nav{
     display: flex;
@@ -58,22 +56,22 @@ a{
 
 }
 a.active {
-    color: #41CFAB ;
+     color: #41CFAB ;
      border-bottom: 5px solid #41CFAB;
-    padding-bottom: 36px;
+     padding-bottom: 36px;
     
   }
 
   a:hover {
     color: #41CFAB ;
-     border-bottom: 5px solid #41CFAB;
+    border-bottom: 5px solid #41CFAB;
     padding-bottom: 36px;
     
   }
   .ban-section{
       position: absolute;
       color: white;
-      top: 50%;
+      top: 35%;
       left: 35%;
   }
   .ban-section h2,h3,h1{
@@ -85,14 +83,14 @@ a.active {
       background-color: rgb(25, 206, 176);
       width: 120px;
       height: 50px;
-      border-top: 4px solid white;
+      border-top: 5px solid white;
   }
   .btn2{
     width: 120px;
     height: 50px;
     background-color: rgb(1, 204, 247);
     margin-left: 20px;
-    border-top:4px solid white
+    border-top:5px solid white
   }
 
   h2 span{
@@ -140,7 +138,9 @@ a.active {
     text-transform: uppercase;
 }
 
-
+.sectionThree{
+    max-width: 1200px;
+}
 .heading{
     margin: 0 auto;
     display: flex;
@@ -161,8 +161,7 @@ a.active {
 
 
 .main{
-    margin: 0 auto;
-    max-width: 1200px;
+    margin-left: 150px;
     display: flex;
     justify-content: space-around;
 }
@@ -195,7 +194,7 @@ a.active {
 
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color:#000000;
     position: relative;
     overflow: hidden;
     
@@ -207,7 +206,7 @@ a.active {
     width: 50%;
 }
 .sectionFour .side{
-    color: white;
+    color: #ffffff;
     margin-left: 62%;
     padding-top: 100px;
 }
@@ -215,7 +214,9 @@ a.active {
 .side{
     margin-bottom: 100px;
 }
-
+.side h1{
+    text-transform:capitalize;
+}
 .side img{
     margin-left: 100px;
 }
@@ -254,7 +255,7 @@ a.active {
 }
 
 .bg-bars{
-  overflow: hidden;
+    overflow: hidden;
     margin-right: 150px;
     color: #000;
     background-color: #0A1014;
@@ -297,7 +298,98 @@ a.active {
 .bars .bartext{
     color: #ffffff;
     size: 13px;
-   text-indent: 7px;
-   padding-top: 3px;
+    text-indent: 7px;
+    padding-top: 3px;
+}
 
+.head{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.sectionFive{
+    
+    overflow: hidden;
+}
+.head h1{
+    margin-left: 500px;
+}
+
+.head img{
+    margin-left: 585px;
+}
+
+.work-categories ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 600px;
+    margin-left: 357px;
+   
+}
+.work-categories ul li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #EBEBEB;
+    padding: 15px;
+    font-size: 14px;
+    color: #717171;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px;;
+    position: relative;
+}
+
+.all{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 17px;
+    border-top: 3px solid aqua;
+}
+
+.gallary{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 130px;
+    flex-wrap: wrap;
+}
+.gallary .first{
+  display: flex;
+}
+
+.first img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.loadBtn{
+    margin-top: 70px;
+    margin-left: 555px;
+    background-color: #41CFAB;
+    width: 200px;
+    height: 50px;
+    position: relative;
+}
+
+.loadBtn img{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.loadBtn p{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
 }
