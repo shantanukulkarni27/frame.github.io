@@ -10,7 +10,7 @@
     
 }
 header{
-    background-image: url(/assets/images/slider1.jpg);
+    background-image: url("../images/slider1.jpg");
     background-size: cover;
     height: 100vh;
 }
